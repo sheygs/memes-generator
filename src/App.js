@@ -1,14 +1,18 @@
 import React from 'react';
+import Header from './components/Header';
+import MemeGenerator from './components/MemeGenerator';
 import './App.css';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello Meme
-      </header>
-    </div>
-  );
+     <>
+      <div className="App">
+          <Header/>
+          <MemeGenerator/>
+      </div>  
+    </>
+  )
 }
 
-export default App;
+
