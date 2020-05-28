@@ -9,6 +9,7 @@ export default function Form({ firstText, secondText, handleSubmit, handleChange
                 id="firstText"
                 type="text"
                 name="firstText"
+                placeholder="first text..."
                 value={firstText}
                 onChange={handleChange}
             />
@@ -16,6 +17,7 @@ export default function Form({ firstText, secondText, handleSubmit, handleChange
                 id="secondText"
                 type="text"
                 name="secondText"
+                placeholder="second text..."
                 value={secondText}
                 onChange={handleChange}
             />
