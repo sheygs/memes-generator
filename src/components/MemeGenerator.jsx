@@ -26,11 +26,7 @@ export default class MemeGenerator extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-    this.setState({
-        randomImg: this.generateRandomImage(),
-        firstText: "",
-        secondText: ""
-    }) 
+    this.setState({ randomImg: this.generateRandomImage() }) 
   };
 
   handleChange = e => {
